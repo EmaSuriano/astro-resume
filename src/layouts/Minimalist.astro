@@ -1,0 +1,53 @@
+---
+import '@fontsource/poppins';
+import Download from '../components/Download.astro';
+import '../styles.css';
+
+export interface Props {
+  title: string;
+  pdfLink?: string;
+  noIndex?: boolean;
+}
+
+const { title, pdfLink, noIndex } = Astro.props.frontmatter as Props;
+
+const initials = title
+  .split(' ')
+  .map((word) => word[0].toUpperCase())
+  .slice(0, 2)
+  .join(' ');
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    {noIndex && <meta name="robots" content="noindex" />}
+    <title>{title}</title>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-900 my-0 sm:my-14">
+    <div class="container flex justify-center mx-auto">
+      <article class="relative minimalist">
+        <div
+          class="absolute bg-indigo-400 px-4 py-1 top-4 sm:top-12 sm:left-8 rounded-sm"
+        >
+          <div class="w-2 h-fit text-sm font-bold select-none">
+            {initials}
+          </div>
+        </div>
+        {
+          pdfLink && (
+            <div class="not-prose absolute right-4 top-4">
+              <Download href={pdfLink} />
+            </div>
+          )
+        }
+        <slot />
+      </article>
+    </div>
+    <style></style>
+  </body>
+</html>
