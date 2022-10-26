@@ -4,7 +4,7 @@
 
 > Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/).
 
-## Demo
+## [Demo](https://astro-resume.netlify.app)
 
 ## Features
 
