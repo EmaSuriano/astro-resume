@@ -7,14 +7,14 @@
     "dev": "astro dev",
     "start": "astro dev",
     "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
-    "build": "astro build",
+    "generate-pdf:ci": "start-server-and-test http://127.0.0.1:3000 generate-pdf",
+    "build": "generate-pdf:ci && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/tailwind": "^2.1.1",
     "astro": "^1.5.2",
-    "astro-icon": "^0.8.0",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
@@ -23,6 +23,7 @@
     "@tailwindcss/typography": "^0.5.7",
     "@types/node": "^18.11.6",
     "playwright": "^1.27.1",
+    "start-server-and-test": "^1.14.0",
     "ts-node": "^10.9.1"
   }
 }
