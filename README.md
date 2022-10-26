@@ -4,7 +4,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d621f0a-f078-4a5e-acca-f8c88b552223/deploy-status)](https://app.netlify.com/sites/astro-resume/deploys)
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/EmaSuriano/astro-resume/tree/latest)
 
-> Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/).
+> Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/), and inspired by [Standard Resume](https://standardresume.co/).
 
 ## [Demo](https://astro-resume.netlify.app)
 
@@ -20,15 +20,15 @@
 
 ### Light mode
 
-| Desktop                                                                                                                 | Tablet                                                                                                                | Phone                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139123-066a9575-b247-494c-bf89-d847cc079cba.png)> | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139120-df681ea7-9353-433f-863a-670f3f395995.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139113-265d0597-e1cf-4733-ae53-c24bc2a218ac.png) |
+| Desktop                                                                                                                | Tablet                                                                                                                | Phone                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139123-066a9575-b247-494c-bf89-d847cc079cba.png) | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139120-df681ea7-9353-433f-863a-670f3f395995.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139113-265d0597-e1cf-4733-ae53-c24bc2a218ac.png) |
 
 ### Dark mode
 
-| Desktop                                                                                                                 | Tablet                                                                                                                | Phone                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139151-a04eacbb-f627-4d29-ada6-d353bea60b81.png)> | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139141-82076204-7018-415b-b313-1bde36939a8a.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139137-e29fa7c8-d152-46de-b038-85faae1e7652.png) |
+| Desktop                                                                                                                | Tablet                                                                                                                | Phone                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139151-a04eacbb-f627-4d29-ada6-d353bea60b81.png) | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139141-82076204-7018-415b-b313-1bde36939a8a.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139137-e29fa7c8-d152-46de-b038-85faae1e7652.png) |
 
 ### PDF Generated
 
