@@ -2,7 +2,6 @@
 title: Richard Hendriks - Resume
 layout: ../layouts/Minimalist.astro
 pdfLink: resume.pdf
-noIndex: true
 ---
 
 # Richard Hendriks

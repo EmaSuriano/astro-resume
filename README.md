@@ -1,8 +1,8 @@
 # astro-resume
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/EmaSuriano/astro-resume/tree/latest)
 [![master](https://github.com/EmaSuriano/astro-resume/actions/workflows/master.yml/badge.svg)](https://github.com/EmaSuriano/astro-resume/actions/workflows/master.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d621f0a-f078-4a5e-acca-f8c88b552223/deploy-status)](https://app.netlify.com/sites/astro-resume/deploys)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/EmaSuriano/astro-resume/tree/latest)
 
 > Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/), and inspired by [Standard Resume](https://standardresume.co/).
 
@@ -15,6 +15,8 @@
 - No need for complex data structure, just write your information in Markdown!
 - Resume PDF generation using [Playwright](https://playwright.dev/)
 - Ready for deployment with [Netlify](https://netlify.com/) or any static website hosting.
+- Fonts powered by [Fontsource](https://fontsource.org/)
+- Full Typescript support
 
 ## UI
 
@@ -36,7 +38,7 @@
 | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | ![Pdf Page 1](https://user-images.githubusercontent.com/3399429/198139108-252928a4-bd64-4268-bd96-7cd9962dc635.png) | ![Pdf Page 2](https://user-images.githubusercontent.com/3399429/198139094-cf5e16c4-79b7-4094-939f-9960c56621b4.png) |
 
-## 🚀 Project Structure
+## Project Structure
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
@@ -46,7 +48,7 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 The pdf is generated at build time, so no need to manually generated it.
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -59,6 +61,17 @@ All commands are run from the root of the project, from a terminal:
 | `yarn astro ...`    | Run CLI commands like `astro add`, `astro preview` |
 | `yarn astro --help` | Get help using the Astro CLI                       |
 
-## 👀 Want to learn more?
+## How to setup your own resume?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- You can quickly clone this repository by clicking on [Use this template](https://github.com/EmaSuriano/astro-resume/generate).
+- After your repository is created, you should modify [index.md](./src/pages/index.md) with your information.
+- Once you are done, push your changes into your repository.
+- Select any of the available options to deploy your websites. This project already provides the setup to deploy with Netlify, you can check [this guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) for more information.
+
+## Contributing
+
+Feel free to open issues or/and pull requests into this repository to improve it!
+
+## License
+
+MIT.

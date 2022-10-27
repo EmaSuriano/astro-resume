@@ -376,11 +376,6 @@
   resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.10.tgz#44dbfeacb5d89efca5ad7ad6cc941b2ac1ee424b"
   integrity sha512-oYZVHsnlwV3VWM1SE/m6SUxVh0QLk5+2wB+lBiXcI7N/0KVQWmV9YykaPqfJHBLvmdya+MAOnv+BQHeLU1vOOw==
 
-"@fontsource/twinkle-star@^4.5.9":
-  version "4.5.9"
-  resolved "https://registry.yarnpkg.com/@fontsource/twinkle-star/-/twinkle-star-4.5.9.tgz#9625185c42e7d0871a9cbdb21122844000643dcf"
-  integrity sha512-41Z1cV7Dp505+/ceDMMSRRbeaSdkXYJyKGJzkUAu0lJWkUZHShuxzjHPa1Pq8hEndvBoBtAtq6MVgaryZ2DTgA==
-
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
