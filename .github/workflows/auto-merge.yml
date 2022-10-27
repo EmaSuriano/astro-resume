@@ -15,4 +15,4 @@ jobs:
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          github-token: ${{ secrets.GITHUB_MERGE_TOKEN }}
+          github-token: ${{ secrets.MERGE_GITHUB_TOKEN }}
