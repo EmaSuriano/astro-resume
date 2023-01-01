@@ -16,7 +16,7 @@
     "@astrojs/tailwind": "^2.1.3",
     "@fontsource/poppins": "^4.5.10",
     "@tailwindcss/typography": "^0.5.8",
-    "@types/node": "^18.11.10",
+    "@types/node": "^18.11.18",
     "astro": "^1.6.12",
     "playwright": "^1.28.1",
     "start-server-and-test": "^1.14.0",
