@@ -3,11 +3,13 @@ import '@fontsource/poppins';
 import Download from '../components/Download.astro';
 import '../styles.css';
 
-type Props {
-  title: string;
-  pdfLink?: string;
-  noIndex?: boolean;
-}
+type Props = {
+  frontmatter: {
+    title: string;
+    pdfLink?: string;
+    noIndex?: boolean;
+  };
+};
 
 const { title, pdfLink, noIndex } = Astro.props.frontmatter;
 
