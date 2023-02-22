@@ -3,19 +3,20 @@ import '@fontsource/poppins';
 import Download from '../components/Download.astro';
 import '../styles.css';
 
-export interface Props {
-  title: string;
-  pdfLink?: string;
-  noIndex?: boolean;
-}
+type Props = {
+  frontmatter: {
+    title: string;
+    pdfLink?: string;
+    noIndex?: boolean;
+  };
+};
 
-const { title, pdfLink, noIndex } = Astro.props.frontmatter as Props;
+const { title, pdfLink, noIndex } = Astro.props.frontmatter;
 
 const initials = title
   .split(' ')
   .map((word) => word[0].toUpperCase())
-  .slice(0, 2)
-  .join(' ');
+  .slice(0, 2);
 ---
 
 <!DOCTYPE html>
@@ -28,14 +29,17 @@ const initials = title
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
   </head>
-  <body class="bg-slate-50 dark:bg-slate-900 my-0 sm:my-14">
-    <div class="container flex justify-center mx-auto">
-      <article class="relative minimalist">
+  <body class="my-0 bg-indigo-50 dark:bg-slate-900 sm:my-14">
+    <div class="container mx-auto flex justify-center">
+      <article class="minimalist relative">
         <div
-          class="absolute bg-indigo-400 px-4 py-1 top-4 sm:top-12 sm:left-8 rounded-sm"
+          class="absolute top-4 rounded-sm bg-indigo-400 px-4 py-1 sm:top-12 sm:left-8"
         >
-          <div class="w-2 h-fit text-sm font-bold select-none">
-            {initials}
+          <div
+            class="flex h-fit select-none flex-col items-center text-sm font-bold"
+          >
+            <span>{initials[0]}</span>
+            <span>{initials[1]}</span>
           </div>
         </div>
         {

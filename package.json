@@ -8,7 +8,7 @@
     "start": "astro dev",
     "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
     "generate-pdf:ci": "start-server-and-test preview 3000 generate-pdf",
-    "build": "astro check && astro build && yarn generate-pdf:ci",
+    "build": "astro check && tsc --noEmit && astro build && yarn generate-pdf:ci",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -19,6 +19,8 @@
     "@types/node": "^18.11.10",
     "astro": "^1.6.12",
     "playwright": "^1.28.1",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3",
     "start-server-and-test": "^1.14.0",
     "tailwindcss": "^3.2.4",
     "ts-node": "^10.9.1"
