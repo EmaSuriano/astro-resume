@@ -8,10 +8,11 @@ type Props = {
     title: string;
     pdfLink?: string;
     noIndex?: boolean;
+    description?: string;
   };
 };
 
-const { title, pdfLink, noIndex } = Astro.props.frontmatter;
+const { title, pdfLink, noIndex, description } = Astro.props.frontmatter;
 
 const initials = title
   .split(' ')
@@ -26,6 +27,7 @@ const initials = title
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description || title} />
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
   </head>

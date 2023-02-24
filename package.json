@@ -8,7 +8,7 @@
     "start": "astro dev",
     "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
     "generate-pdf:ci": "start-server-and-test preview 3000 generate-pdf",
-    "build": "astro check && tsc --noEmit && astro build && yarn generate-pdf:ci",
+    "build": "astro check && tsc --noEmit && yarn generate-pdf:ci && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
