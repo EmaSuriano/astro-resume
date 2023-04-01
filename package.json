@@ -16,7 +16,7 @@
     "@fontsource/poppins": "^4.5.10",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18.15.11",
-    "astro": "^2.0.16",
+    "astro": "^2.1.9",
     "playwright": "^1.32.1",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6",
