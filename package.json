@@ -21,7 +21,7 @@
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.3",
     "start-server-and-test": "^2.0.0",
-    "tailwindcss": "^3.2.7",
+    "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1"
   }
 }
