@@ -445,10 +445,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.17.tgz#c5a1a4bfe1b57f0c3e61b29883525c6da3e5c091"
   integrity sha512-y+EHuSchhL7FjHgvQL/0fnnFmO4T1bhvWANX6gcnqTjtnKWbTvUMCpGnv2+t+31d7RzyEAYAd4u2fnIhHL6N/Q==
 
-"@fontsource/poppins@^4.5.10":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.10.tgz#44dbfeacb5d89efca5ad7ad6cc941b2ac1ee424b"
-  integrity sha512-oYZVHsnlwV3VWM1SE/m6SUxVh0QLk5+2wB+lBiXcI7N/0KVQWmV9YykaPqfJHBLvmdya+MAOnv+BQHeLU1vOOw==
+"@fontsource/poppins@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-5.0.3.tgz#f4afa9aa5f491731decee76111c9b9622a9b7924"
+  integrity sha512-5lL2vmvmh4zbknTh1nVH9pTWyhYqAlYMHIAnkNhqo5qwMZGlr+coM1dtMwiQHRBgmHAl3ZvJ35Bj0s8cpmXZbg==
 
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
