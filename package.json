@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^3.0.1",
-    "@fontsource/poppins": "^4.5.10",
+    "@fontsource/poppins": "^5.0.5",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18.16.3",
     "astro": "^2.0.16",
