@@ -20,7 +20,7 @@
     "playwright": "^1.37.1",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.4.1",
-    "start-server-and-test": "^2.0.0",
+    "start-server-and-test": "^2.0.1",
     "tailwindcss": "^3.3.3",
     "ts-node": "^10.9.1"
   }
