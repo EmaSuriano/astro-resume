@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "generate-pdf": "node ./scripts/generate-pdf.jys",
+    "generate-pdf": "node ./scripts/generate-pdf.js",
     "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
     "prebuild": "astro check && tsc --noEmit",
     "build": "yarn generate-pdf:ci && astro build"
