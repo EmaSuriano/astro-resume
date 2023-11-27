@@ -11,9 +11,12 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - run: yarn install --frozen-lockfile
+
+      - name: Install playwright browsers
+        run: npx playwright install --with-deps
 
       - run: yarn build
 
@@ -25,13 +28,27 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - run: yarn install --frozen-lockfile
       - run: yarn add @percy/cli -D
 
-      - run: yarn build
+      - run: mkdir -p theme-dist/light && mkdir -p theme-dist/dark
 
-      - run: npx percy snapshot dist/
+      - run: yarn build:light --base light
+        env:
+          NOTION_API_KEY: ${{secrets.NOTION_API_KEY}}
+          DATABASE_ID: ${{secrets.DATABASE_ID}}
+
+      - run: cp -R dist/* theme-dist/light
+
+      - run: yarn build:dark --base dark
+        env:
+          NOTION_API_KEY: ${{secrets.NOTION_API_KEY}}
+          DATABASE_ID: ${{secrets.DATABASE_ID}}
+
+      - run: cp -R dist/* theme-dist/dark
+
+      - run: npx percy snapshot theme-dist/
         env:
           PERCY_TOKEN: ${{secrets.PERCY_TOKEN}}

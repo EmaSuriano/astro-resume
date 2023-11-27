@@ -12,7 +12,7 @@ type Props = {
   };
 };
 
-const { PDF_VIEW } = import.meta.env;
+const { PDF_VIEW, FORCE_THEME = "" } = import.meta.env;
 
 const { title, pdfLink, noIndex, description } = Astro.props
   .frontmatter as Props["frontmatter"];
@@ -25,7 +25,7 @@ const initials = title
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class={FORCE_THEME}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
