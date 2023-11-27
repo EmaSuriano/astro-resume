@@ -1,26 +1,30 @@
 ---
-import '@fontsource/poppins';
-import Download from '../components/Download.astro';
-import '../styles.css';
+import "@fontsource/poppins";
+import Download from "../components/Download.astro";
+import "../styles.css";
 
 type Props = {
   frontmatter: {
     title: string;
-    pdfLink?: string;
+    pdfLink: string;
     noIndex?: boolean;
     description?: string;
   };
 };
 
-const { title, pdfLink, noIndex, description } = Astro.props.frontmatter;
+const { PDF_VIEW } = import.meta.env;
 
+const { title, pdfLink, noIndex, description } = Astro.props
+  .frontmatter as Props["frontmatter"];
+
+// Firstname Lastname -> ['F', 'L']
 const initials = title
-  .split(' ')
-  .map((word) => word[0].toUpperCase())
+  .split(" ")
+  .map(([initial]) => initial!.toUpperCase())
   .slice(0, 2);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -31,21 +35,20 @@ const initials = title
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
   </head>
-  <body class="my-0 bg-indigo-50 dark:bg-slate-900 sm:my-14">
+  <body class={!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : ""}>
     <div class="container mx-auto flex justify-center">
       <article class="minimalist relative">
         <div
-          class="absolute top-4 rounded-sm bg-indigo-400 px-4 py-1 sm:top-12 sm:left-8"
+          class="absolute top-4 rounded-sm bg-indigo-400 px-4 py-1 sm:left-8 sm:top-12"
         >
           <div
             class="flex h-fit select-none flex-col items-center text-sm font-bold"
           >
-            <span>{initials[0]}</span>
-            <span>{initials[1]}</span>
+            {initials.map((initial) => <span>{initial}</span>)}
           </div>
         </div>
         {
-          pdfLink && (
+          !PDF_VIEW && (
             <div class="not-prose absolute right-4 top-4">
               <Download href={pdfLink} />
             </div>

@@ -1,6 +1,6 @@
 name: Pr Checker
 
-on: [pull_request, pull_request_target]
+on: [pull_request]
 
 jobs:
   build:
@@ -16,3 +16,22 @@ jobs:
       - run: yarn install --frozen-lockfile
 
       - run: yarn build
+
+  visual-testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn add @percy/cli -D
+
+      - run: yarn build
+
+      - run: npx percy snapshot dist/
+        env:
+          PERCY_TOKEN: ${{secrets.PERCY_TOKEN}}
