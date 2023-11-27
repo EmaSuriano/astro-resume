@@ -18,5 +18,9 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-public/resume.pdf
+public/*.pdf
 .astro
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

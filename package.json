@@ -4,24 +4,33 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "npx playwright install",
     "dev": "astro dev",
     "start": "astro dev",
-    "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
-    "generate-pdf:ci": "start-server-and-test 3000 generate-pdf",
-    "build": "astro check && tsc --noEmit && yarn generate-pdf:ci && astro build",
-    "astro": "astro"
+    "generate-pdf": "node ./scripts/generate-pdf.js",
+    "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
+    "prebuild": "astro check && tsc --noEmit",
+    "build": "yarn generate-pdf:ci && astro build",
+    "build:light": "FORCE_THEME=light astro build",
+    "build:dark": "FORCE_THEME=dark astro build"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^3.0.1",
+    "@astrojs/tailwind": "^5.0.2",
     "@fontsource/poppins": "^5.0.8",
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@playwright/test": "^1.40.0",
     "@tailwindcss/typography": "^0.5.10",
-    "@types/node": "^20.9.0",
-    "astro": "^2.0.18",
-    "playwright": "^1.37.1",
-    "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "start-server-and-test": "^2.0.1",
+    "@types/node": "^20.10.0",
+    "netlify-plugin-playwright-cache": "^0.0.1",
+    "prettier": "^3.1.0",
+    "prettier-plugin-astro": "^0.12.2",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "start-server-and-test": "^2.0.3",
     "tailwindcss": "^3.3.5",
-    "ts-node": "^10.9.1"
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.1",
+    "astro": "^3.6.0"
   }
 }

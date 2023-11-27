@@ -3,7 +3,7 @@ type Props = {
   href: string;
 };
 
-const { href } = Astro.props;
+const { href } = Astro.props as Props;
 ---
 
 <a
