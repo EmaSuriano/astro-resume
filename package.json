@@ -27,7 +27,7 @@
     "prettier-plugin-tailwindcss": "^0.5.10",
     "start-server-and-test": "^2.0.3",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
