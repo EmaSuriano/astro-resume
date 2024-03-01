@@ -641,10 +641,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@netlify/plugin-lighthouse@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-lighthouse/-/plugin-lighthouse-5.0.0.tgz#13183fd186358fc0237a082f8b28c0786b7f1071"
-  integrity sha512-tCaoVYxCU3OB592vChtFkANzUL4kDUNaIk9VCGp3qBecBnH+yFrILUlcqy2d08Is4ecstjTacyHqV+ixKbNYGQ==
+"@netlify/plugin-lighthouse@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-lighthouse/-/plugin-lighthouse-6.0.0.tgz#cf4c186f1de2bc01cb79515a385c8c2e9cea3d4c"
+  integrity sha512-Uqqy9A7huuDT+1RIBWDoWhp+ntlLE1ibp1jXFpiizWy8QProWkLm8E7PFLu0Bf+aAwgjV2eJPj6ocIbk+jBANQ==
   dependencies:
     chalk "^4.1.0"
     chrome-launcher "^0.15.0"
@@ -1362,12 +1362,7 @@ chalk@^4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.0.0:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.1.2.tgz#d957f370038b75ac572471e83be4c5ca9f8e8c45"
-  integrity sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==
-
-chalk@^5.2.0, chalk@^5.3.0:
+chalk@^5.0.0, chalk@^5.2.0, chalk@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
   integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
