@@ -19,7 +19,7 @@
     "@fontsource/poppins": "^5.0.13",
     "@netlify/plugin-lighthouse": "^5.0.0",
     "@playwright/test": "^1.42.0",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.12",
     "@types/node": "^20.10.6",
     "netlify-plugin-playwright-cache": "^0.0.1",
     "prettier": "^3.2.5",
