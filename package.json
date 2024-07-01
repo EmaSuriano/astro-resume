@@ -24,7 +24,7 @@
     "netlify-plugin-playwright-cache": "^0.0.1",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
-    "prettier-plugin-tailwindcss": "^0.5.14",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "start-server-and-test": "^2.0.3",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.4.5"
