@@ -22,7 +22,7 @@
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.14.9",
     "netlify-plugin-playwright-cache": "^0.0.1",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "start-server-and-test": "^2.0.4",
