@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
-    "@fontsource/poppins": "^5.0.14",
+    "@fontsource/poppins": "^5.0.15",
     "@netlify/plugin-lighthouse": "^5.0.0",
     "@playwright/test": "^1.45.0",
     "@tailwindcss/typography": "^0.5.13",
