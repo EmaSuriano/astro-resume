@@ -24,3 +24,6 @@ public/*.pdf
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+#FIXME
+.github

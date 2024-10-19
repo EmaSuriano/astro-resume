@@ -1,23 +1,35 @@
 ---
-title: Richard Hendriks - Resume
-description: Resume about Richard Hendriks, CEO of Pied Piper.
+title: Marco Antonio Gonzalez Junior - Résumé
+description: Résumé about Marco Antonio Gonzalez Junior, a Solutions Architect.
 layout: ../layouts/Minimalist.astro
-pdfLink: resume.pdf
+pdfLink: MarcoAntonioGonzalezJunior.pdf
 ---
 
-# Richard Hendriks
+# Marco Antonio Gonzalez Junior
 
-**Programmer**
+**Solutions Architect**
 
-San Francisco, USA | richard.hendriks@gmail.com | http://richardhendricks.com
+São Paulo, Brazil | m@rco.sh | https://www.linkedin.com/in/marcoantoniogonzalezjunior/
 
-Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+Seasoned Solutions Architect with over 15 years of experience in designing and implementing large-scale systems and cloud-native solutions. Proven track record of leading cross-functional teams and delivering innovative, high-performance, and scalable solutions for the finance, retail, and e-commerce sectors. Strong expertise in AWS cloud architecture, microservices, and data-driven decision-making. Adept at aligning technology with business goals and driving continuous improvement across development teams.
+
+## Education
+
+
+
+## Skills
+
+
+
+## Certifications
+
+
 
 ## Work Experience
 
-### [Google](https://www.google.com/)
+### [IBM](https://www.ibm.com/)
 
-#### Senior Software Engineer | Oct 2022 - Current
+#### Senior Solutions Architect | Jul 2022 ~ Sep 2024
 
 Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
 
@@ -47,9 +59,10 @@ Innovative middle-out compression algorithm that changes the way we store data.
 
 ## Languages
 
-| English        | English     |
-| -------------- | ----------- |
-| Native speaker | Proficiency |
+|   |   |
+| - | - |
+| Portuguese | Native |
+| English | Advanced |
 
 ## Education
 
