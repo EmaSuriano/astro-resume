@@ -9,7 +9,7 @@
     "generate-pdf": "node ./scripts/generate-pdf.js",
     "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
     "prebuild": "astro telemetry disable && astro check && tsc --noEmit && npx playwright install-deps",
-    "build": "npm run generate-pdf:ci && astro build",
+    "build": "astro build",
     "build:light": "FORCE_THEME=light astro build",
     "build:dark": "FORCE_THEME=dark astro build",
     "postinstall": "npx playwright install"
