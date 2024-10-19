@@ -7,11 +7,7 @@ import { astroExpressiveCode } from '@astrojs/starlight/expressive-code';
 export default defineConfig({
   integrations: [
     tailwind(),
-    astroExpressiveCode(),
     mdx(), 
-    starlight({
-      title: '',
-    }),
   ],
   vite: {
     ssr: {
