@@ -1,5 +1,5 @@
 {
-  "name": "astro-resume",
+  "name": "magj-resume",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -8,23 +8,19 @@
     "start": "astro dev",
     "generate-pdf": "node ./scripts/generate-pdf.js",
     "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
-    "prebuild": "astro telemetry disable && astro check && tsc --noEmit && npx playwright install-deps",
+    "prebuild": "astro telemetry disable && astro check && tsc --noEmit",
     "build": "astro build",
     "build:light": "FORCE_THEME=light astro build",
-    "build:dark": "FORCE_THEME=dark astro build",
-    "postinstall": "npx playwright install"
-
+    "build:dark": "FORCE_THEME=dark astro build"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.2",
     "@fontsource/poppins": "^5.1.0",
-    "@playwright/test": "^1.48.1",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.7.7",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.8",
-    "start-server-and-test": "^2.0.8",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3"
   },
