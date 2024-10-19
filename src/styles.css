@@ -1,3 +1,5 @@
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -12,7 +14,7 @@ article.minimalist {
     prose-h2:uppercase prose-h2:text-slate-500
     prose-h3:mb-3 prose-h3:mt-8 prose-h3:text-xl prose-h3:uppercase prose-h4:mb-3 
     prose-h4:mt-4 prose-h4:text-sm prose-h4:text-slate-600 prose-p:my-2
-    prose-p:text-sm prose-p:leading-6 prose-a:font-bold prose-a:no-underline prose-a:transition-colors 
+    prose-p:text-sm prose-p:leading-6 prose-a:no-underline prose-a:transition-colors 
     hover:prose-a:text-slate-400 prose-li:text-sm prose-table:mt-4 prose-thead:border-0
     prose-th:p-0 prose-th:font-medium prose-td:p-0
     prose-td:text-slate-500

@@ -1,0 +1,9 @@
+---
+type Props = {
+    address: string;
+};
+
+const { address } = Astro.props as Props;
+---
+<a style="color:#CBD5E1" href="mailto:{address}">{address}</a>
+

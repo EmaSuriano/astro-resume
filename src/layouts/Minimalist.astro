@@ -17,11 +17,7 @@ const { PDF_VIEW, FORCE_THEME = "" } = import.meta.env;
 const { title, pdfLink, noIndex, description } = Astro.props
   .frontmatter as Props["frontmatter"];
 
-// Firstname Lastname -> ['F', 'L']
-const initials = title
-  .split(" ")
-  .map(([initial]) => initial!.toUpperCase())
-  .slice(0, 2);
+const initials = ['M', 'G']
 ---
 
 <!doctype html>
