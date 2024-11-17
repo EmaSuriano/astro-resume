@@ -28,6 +28,7 @@ const { title, pdfLink, noIndex, description } = Astro.props
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description || title} />
     {noIndex && <meta name="robots" content="noindex" />}
+    <script defer data-domain="resume.magj.dev" src="https://plausible.io/js/script.js"></script>
     <title>{title}</title>
   </head>
   <body class={!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : ""}>
