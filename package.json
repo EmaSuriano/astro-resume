@@ -17,20 +17,20 @@
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.4",
     "@fontsource/poppins": "^5.1.1",
-    "@netlify/plugin-lighthouse": "^5.0.0",
-    "@playwright/test": "^1.46.1",
-    "@tailwindcss/typography": "^0.5.13",
-    "@types/node": "^20.14.9",
+    "@netlify/plugin-lighthouse": "^6.0.1",
+    "@playwright/test": "^1.49.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.10.6",
     "netlify-plugin-playwright-cache": "^0.0.1",
-    "prettier": "^3.3.3",
-    "prettier-plugin-astro": "^0.14.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.9",
-    "start-server-and-test": "^2.0.9",
+    "start-server-and-test": "^2.0.10",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "astro": "^3.6.4"
+    "astro": "^5.1.6"
   }
 }
