@@ -18,7 +18,7 @@
     "@astrojs/tailwind": "^5.1.4",
     "@fontsource/poppins": "^5.1.1",
     "@netlify/plugin-lighthouse": "^6.0.1",
-    "@playwright/test": "^1.49.1",
+    "@playwright/test": "^1.50.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.13.0",
     "netlify-plugin-playwright-cache": "^0.0.1",
