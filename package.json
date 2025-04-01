@@ -20,7 +20,7 @@
     "@netlify/plugin-lighthouse": "^6.0.1",
     "@playwright/test": "^1.51.1",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^22.13.8",
+    "@types/node": "^22.13.15",
     "netlify-plugin-playwright-cache": "^0.0.1",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
