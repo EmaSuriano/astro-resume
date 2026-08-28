@@ -15,10 +15,10 @@
     "build:dark": "FORCE_THEME=dark astro build"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/tailwind": "^5.1.5",
     "@fontsource/poppins": "^5.3.0",
     "@netlify/plugin-lighthouse": "^6.0.4",
-    "@playwright/test": "^1.55.1",
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^22.20.1",
     "netlify-plugin-playwright-cache": "^0.0.1",
@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
-    "astro": "^5.14.1"
+    "astro": "^5.18.2"
   }
 }
