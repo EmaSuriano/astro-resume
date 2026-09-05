@@ -1,0 +1,2 @@
+# Pin duggan fork until simonw/shot-scraper#191 (--color-scheme) merges to PyPI.
+shot-scraper @ git+https://github.com/duggan/shot-scraper.git@color-scheme-flag
