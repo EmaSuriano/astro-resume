@@ -19,19 +19,21 @@
 - Fonts powered by [Fontsource](https://fontsource.org/)
 - Full Typescript support
 
-## UI
+## Screenshots
+
+Captured from the [live demo](https://astro-resume.netlify.app) with [shot-scraper](https://github.com/simonw/shot-scraper). Light and dark run as **parallel CI jobs** via [`shots-light.yml`](shots-light.yml) / [`shots-dark.yml`](shots-dark.yml), using Playwright `--color-scheme` media emulation (Tailwind `darkMode: "media"` — no theme toggle / classList). Workflow: [`.github/workflows/screenshots.yml`](.github/workflows/screenshots.yml).
 
 ### Light mode
 
-| Desktop                                                                                                                | Tablet                                                                                                                | Phone                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139123-066a9575-b247-494c-bf89-d847cc079cba.png) | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139120-df681ea7-9353-433f-863a-670f3f395995.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139113-265d0597-e1cf-4733-ae53-c24bc2a218ac.png) |
+| Desktop | Tablet | Phone |
+| ------- | ------ | ----- |
+| ![Desktop light](screenshots/desktop-light.png) | ![Tablet light](screenshots/tablet-light.png) | ![Phone light](screenshots/phone-light.png) |
 
 ### Dark mode
 
-| Desktop                                                                                                                | Tablet                                                                                                                | Phone                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139151-a04eacbb-f627-4d29-ada6-d353bea60b81.png) | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139141-82076204-7018-415b-b313-1bde36939a8a.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139137-e29fa7c8-d152-46de-b038-85faae1e7652.png) |
+| Desktop | Tablet | Phone |
+| ------- | ------ | ----- |
+| ![Desktop dark](screenshots/desktop-dark.png) | ![Tablet dark](screenshots/tablet-dark.png) | ![Phone dark](screenshots/phone-dark.png) |
 
 ### PDF Generated
 

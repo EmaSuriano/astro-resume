@@ -1,0 +1,17 @@
+- url: https://astro-resume.netlify.app/
+  output: screenshots/desktop-light.png
+  width: 1440
+  height: 900
+  wait: 1500
+
+- url: https://astro-resume.netlify.app/
+  output: screenshots/tablet-light.png
+  width: 768
+  height: 1024
+  wait: 1500
+
+- url: https://astro-resume.netlify.app/
+  output: screenshots/phone-light.png
+  width: 390
+  height: 844
+  wait: 1500
