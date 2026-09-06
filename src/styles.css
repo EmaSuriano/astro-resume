@@ -29,10 +29,12 @@ article.minimalist {
 
 /* Tighter spacing when exporting PDF (PDF_VIEW) — keeps screen layout unchanged */
 article.minimalist.pdf-view {
-  @apply py-4 pt-12 pl-16 pr-8 sm:py-6 sm:pt-12 sm:pl-20 sm:pr-12;
+  @apply py-2 pt-8 pl-14 pr-6 sm:py-3 sm:pt-8 sm:pl-16 sm:pr-8
+    prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-3 prose-h3:mb-1 prose-h3:mt-3 prose-h4:mb-0.5 prose-h4:mt-1.5
+    prose-p:my-0.5 prose-p:leading-5 prose-ul:my-1 prose-li:my-0 prose-table:my-1;
 }
 
-/* Align initials badge with title row in PDF (matches pdf-view pt-12) */
+/* Align initials badge with title row in PDF (matches pdf-view pt-8) */
 article.minimalist.pdf-view .initials-mark {
-  @apply top-12 left-2 sm:top-12;
+  @apply top-8 left-2 sm:top-8;
 }
