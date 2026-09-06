@@ -27,5 +27,5 @@ article.minimalist {
 
 /* Tighter spacing when exporting PDF (PDF_VIEW) — keeps screen layout unchanged */
 article.minimalist.pdf-view {
-  @apply px-8 py-4 pt-12 sm:px-12 sm:py-6 sm:pt-12;
+  @apply py-4 pt-12 pl-16 pr-8 sm:py-6 sm:pt-12 sm:pl-20 sm:pr-12;
 }
