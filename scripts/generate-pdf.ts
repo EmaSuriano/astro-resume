@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 
-const main = async () => {
+const main = async (): Promise<void> => {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
@@ -14,7 +14,10 @@ const main = async () => {
     printBackground: true,
   });
 
-  return browser.close();
+  await browser.close();
 };
 
-main();
+void main().catch((error: unknown) => {
+  console.error(error);
+  process.exit(1);
+});
