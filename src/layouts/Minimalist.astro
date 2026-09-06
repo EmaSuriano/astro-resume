@@ -1,6 +1,7 @@
-﻿---
+---
 import "@fontsource/poppins";
 import Download from "../components/Download.astro";
+import ThemeToggle from "../components/ThemeToggle.astro";
 import "../styles.css";
 
 type Props = {
@@ -35,6 +36,22 @@ const initials = title
     <meta name="description" content={description || title} />
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
+    <script is:inline define:vars={{ FORCE_THEME }}>
+      if (!FORCE_THEME) {
+        const stored = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        ).matches;
+        const theme =
+          stored === "light" || stored === "dark"
+            ? stored
+            : prefersDark
+              ? "dark"
+              : "light";
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(theme);
+      }
+    </script>
   </head>
   <body class={!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : ""}>
     <div class="container mx-auto flex justify-center">
@@ -50,7 +67,8 @@ const initials = title
         </div>
         {
           !PDF_VIEW && (
-            <div class="not-prose absolute right-4 top-4">
+            <div class="not-prose absolute right-4 top-4 flex items-center gap-3">
+              <ThemeToggle />
               <Download href={pdfLink} />
             </div>
           )
@@ -61,5 +79,3 @@ const initials = title
     <style></style>
   </body>
 </html>
-
-
