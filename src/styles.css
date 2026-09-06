@@ -31,3 +31,8 @@ article.minimalist {
 article.minimalist.pdf-view {
   @apply py-4 pt-12 pl-16 pr-8 sm:py-6 sm:pt-12 sm:pl-20 sm:pr-12;
 }
+
+/* Align initials badge with title row in PDF (matches pdf-view pt-12) */
+article.minimalist.pdf-view .initials-mark {
+  @apply top-12 left-2;
+}
