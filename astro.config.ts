@@ -7,7 +7,7 @@ const forceTheme = process.env.FORCE_THEME;
 function forceThemeDarkMode() {
   return {
     name: "force-theme-dark-mode",
-    transform(code, id) {
+    transform(code: string, id: string) {
       if (!forceTheme || !id.includes("styles.css")) return;
       if (code.includes("@custom-variant dark")) return;
       return code.replace(
