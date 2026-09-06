@@ -3,7 +3,6 @@
 [![master](https://github.com/EmaSuriano/astro-resume/actions/workflows/master.yml/badge.svg)](https://github.com/EmaSuriano/astro-resume/actions/workflows/master.yml)
 ![Dependabot status](https://badgen.net/github/dependabot/EmaSuriano/astro-resume)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3d621f0a-f078-4a5e-acca-f8c88b552223/deploy-status)](https://app.netlify.com/sites/astro-resume/deploys)
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ema-suriano/astro-resume)
 
 > Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/), and inspired by [Standard Resume](https://standardresume.co/).
 
@@ -23,23 +22,10 @@
 
 Captured from the [live demo](https://astro-resume.netlify.app) with [shot-scraper](https://github.com/simonw/shot-scraper). Light and dark run as **parallel CI jobs** via [`shots-light.yml`](shots-light.yml) / [`shots-dark.yml`](shots-dark.yml), using Playwright `--color-scheme` media emulation (Tailwind `darkMode: "media"` — no theme toggle / classList). Workflow: [`.github/workflows/screenshots.yml`](.github/workflows/screenshots.yml).
 
-### Light mode
-
-| Desktop | Tablet | Phone |
-| ------- | ------ | ----- |
-| ![Desktop light](screenshots/desktop-light.png) | ![Tablet light](screenshots/tablet-light.png) | ![Phone light](screenshots/phone-light.png) |
-
-### Dark mode
-
-| Desktop | Tablet | Phone |
-| ------- | ------ | ----- |
-| ![Desktop dark](screenshots/desktop-dark.png) | ![Tablet dark](screenshots/tablet-dark.png) | ![Phone dark](screenshots/phone-dark.png) |
-
-### PDF Generated
-
-| Page 1                                                                                                              | Page 2                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| ![Pdf Page 1](https://user-images.githubusercontent.com/3399429/198139108-252928a4-bd64-4268-bd96-7cd9962dc635.png) | ![Pdf Page 2](https://user-images.githubusercontent.com/3399429/198139094-cf5e16c4-79b7-4094-939f-9960c56621b4.png) |
+| Desktop | Phone |
+| ------- | ----- |
+| ![Desktop light](screenshots/desktop-light.png) | ![Phone light](screenshots/phone-light.png) |
+| ![Desktop dark](screenshots/desktop-dark.png) | ![Phone dark](screenshots/phone-dark.png) |
 
 ## Project Structure
 
