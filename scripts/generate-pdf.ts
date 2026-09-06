@@ -17,7 +17,7 @@ const main = async (): Promise<void> => {
 
   await page.pdf({
     path: "public/resume.pdf",
-    margin: { top: "20px", bottom: "20px", left: "16px", right: "16px" },
+    margin: { top: "10px", bottom: "10px", left: "12px", right: "12px" },
     printBackground: true,
   });
 

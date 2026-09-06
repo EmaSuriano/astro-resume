@@ -11,7 +11,7 @@ pdfLink: resume.pdf
 
 San Francisco, USA | richard.hendriks@gmail.com | http://richardhendricks.com
 
-Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+Richard hails from Tulsa. He has degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) His work focuses on applied information theory—mostly lossless compression—with interests in quantum computing and chaos theory.
 
 ## Work Experience
 
@@ -19,17 +19,17 @@ Richard hails from Tulsa. He has earned degrees from the University of Oklahoma 
 
 #### Senior Software Engineer | Oct 2022 - Current
 
-Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
+Demo placeholder: led feature delivery for large-scale web products.
 
 #### Software Engineer | Aug 2018 - Oct 2022
 
-Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
+Demo placeholder: built core platform services and developer tooling.
 
 ### [Pied Piper](http://piedpiper.com/)
 
 #### CEO/President | Dec 2013 - Dec 2014
 
-Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.
+Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm with Weisman Scores™ near the theoretical limit of lossless compression.
 
 - Build an algorithm for artist to detect if their music was violating copy right infringement laws
 - Successfully won Techcrunch Disrupt
