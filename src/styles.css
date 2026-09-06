@@ -13,7 +13,7 @@ body {
 
 article.minimalist {
   @apply prose prose-slate m-0
-    max-w-fit bg-white px-12 py-8 pt-20 dark:prose-invert prose-h1:text-3xl prose-h1:uppercase prose-h2:mb-3 prose-h2:mt-8 prose-h2:text-sm
+    max-w-fit bg-white pl-20 pr-12 py-8 pt-20 dark:prose-invert prose-h1:text-3xl prose-h1:uppercase prose-h2:mb-3 prose-h2:mt-8 prose-h2:text-sm
     prose-h2:uppercase prose-h2:text-slate-500
     prose-h3:mb-3 prose-h3:mt-8 prose-h3:text-xl prose-h3:uppercase prose-h4:mb-3 
     prose-h4:mt-4 prose-h4:text-sm prose-h4:text-slate-600 prose-p:my-2
@@ -23,7 +23,7 @@ article.minimalist {
     prose-td:text-slate-500
     dark:bg-slate-800
     dark:prose-h4:text-slate-400  
-    sm:px-24 sm:py-14
+    sm:pl-28 sm:pr-24 sm:py-14
     lg:max-w-4xl;
 }
 
