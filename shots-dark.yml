@@ -5,12 +5,6 @@
   wait: 1500
 
 - url: https://astro-resume.netlify.app/
-  output: screenshots/tablet-dark.png
-  width: 768
-  height: 1024
-  wait: 1500
-
-- url: https://astro-resume.netlify.app/
   output: screenshots/phone-dark.png
   width: 390
   height: 844
