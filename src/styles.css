@@ -26,3 +26,13 @@ article.minimalist {
     sm:px-24 sm:py-14
     lg:max-w-4xl;
 }
+
+/* Tighter spacing when exporting PDF (PDF_VIEW) — keeps screen layout unchanged */
+article.minimalist.pdf-view {
+  @apply py-4 pt-12 pl-16 pr-8 sm:py-6 sm:pt-12 sm:pl-20 sm:pr-12;
+}
+
+/* Align initials badge with title row in PDF (matches pdf-view pt-12) */
+article.minimalist.pdf-view .initials-mark {
+  @apply top-12 left-2;
+}
