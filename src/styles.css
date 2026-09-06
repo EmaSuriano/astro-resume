@@ -24,3 +24,8 @@ article.minimalist {
     sm:px-24 sm:py-14
     lg:max-w-4xl;
 }
+
+/* Tighter spacing when exporting PDF (PDF_VIEW) — keeps screen layout unchanged */
+article.minimalist.pdf-view {
+  @apply px-8 py-4 pt-12 sm:px-12 sm:py-6 sm:pt-12;
+}
