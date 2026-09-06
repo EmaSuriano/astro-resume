@@ -1,9 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
 ::selection {
-  @apply bg-indigo-400 bg-opacity-50 text-white;
+  @apply bg-indigo-400/50 text-white;
 }
 
 article.minimalist {
@@ -17,7 +20,7 @@ article.minimalist {
     prose-th:p-0 prose-th:font-medium prose-td:p-0
     prose-td:text-slate-500
     dark:bg-slate-800
-    prose-h4:dark:text-slate-400  
+    dark:prose-h4:text-slate-400  
     sm:px-24 sm:py-14
     lg:max-w-4xl;
 }
