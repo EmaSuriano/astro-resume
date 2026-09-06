@@ -1,4 +1,4 @@
----
+﻿---
 import "@fontsource/poppins";
 import Download from "../components/Download.astro";
 import "../styles.css";
@@ -12,7 +12,8 @@ type Props = {
   };
 };
 
-const { PDF_VIEW, FORCE_THEME = "" } = import.meta.env;
+const PDF_VIEW = process.env.PDF_VIEW;
+const FORCE_THEME = process.env.FORCE_THEME ?? "";
 
 const { title, pdfLink, noIndex, description } = Astro.props
   .frontmatter as Props["frontmatter"];
@@ -60,3 +61,5 @@ const initials = title
     <style></style>
   </body>
 </html>
+
+
