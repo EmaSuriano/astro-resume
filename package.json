@@ -17,11 +17,11 @@
   "devDependencies": {
     "@fontsource/poppins": "^5.3.0",
     "@netlify/plugin-lighthouse": "^6.0.4",
-    "@playwright/test": "^1.62.1",
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/typography": "^0.5.20",
-    "@types/node": "^22.20.1",
+    "@types/node": "^22.20.4",
     "netlify-plugin-playwright-cache": "^0.0.1",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.9",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "start-server-and-test": "^2.1.5",
@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
-    "astro": "^7.3.1"
+    "astro": "^7.3.5"
   }
 }
